@@ -1,0 +1,61 @@
+Umix (User-Mode Unix) CSE120 Instructional OS v. 3.42 [1/13/17-1:30AM] 19929
+
+1 about to fork
+1 just forked 2
+1 about to fork
+1 just forked 3
+1 about to fork
+1 just forked 4
+1 about to fork
+1 just forked 5
+1 about to fork
+1 just forked 6
+1 about to fork
+1 just forked 7
+1 about to fork
+1 just forked 8
+1 about to fork
+1 just forked 9
+1 about to fork
+1 just forked 10
+1 yielding to 10
+10 starting
+10 yielding to 9
+9 starting
+9 yielding to 8
+8 starting
+8 yielding to 7
+7 starting
+7 yielding to 6
+6 starting
+6 yielding to 5
+5 starting
+5 yielding to 4
+4 starting
+4 yielding to 3
+3 starting
+3 yielding to 2
+2 starting
+2 yielding to 1
+1 resumed by 2, yielding to 10
+10 resumed by 1, yielding to 9
+9 resumed by 10, yielding to 8
+8 resumed by 9, yielding to 7
+7 resumed by 8, yielding to 6
+6 resumed by 7, yielding to 5
+5 resumed by 6, yielding to 4
+4 resumed by 5, yielding to 3
+3 resumed by 4, yielding to 2
+2 resumed by 3, yielding to 1
+1 exiting
+2 exiting
+3 exiting
+4 exiting
+5 exiting
+6 exiting
+7 exiting
+8 exiting
+9 exiting
+10 exiting
+
+System exiting (normal)

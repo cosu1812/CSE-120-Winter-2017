@@ -1,0 +1,8 @@
+Umix (User-Mode Unix) CSE120 Instructional OS v. 3.42 [1/13/17-1:30AM] 24830
+
+I am the parent, my pid is 1
+I just created a child process whose pid is 2
+0
+I am the child, my pid is 2
+
+System exiting (normal)

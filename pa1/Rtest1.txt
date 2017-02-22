@@ -1,0 +1,32 @@
+Umix (User-Mode Unix) CSE120 Instructional OS v. 3.42 [1/13/17-1:30AM] 20518
+
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Exiting pid 2
+Exiting pid 3
+Exiting pid 4
+Exiting pid 5
+PIDs 1 and 6-10 exist. Testing to make 2-5
+Created pid 2
+Created pid 3
+Created pid 4
+Created pid 5
+Exiting parent pid 1
+Exiting pid 6
+Exiting pid 7
+Exiting pid 8
+Exiting pid 9
+Exiting pid 10
+Exiting pid 2
+Exiting pid 3
+Exiting pid 4
+Exiting pid 5
+
+System exiting (normal)
