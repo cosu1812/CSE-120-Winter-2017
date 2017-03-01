@@ -1,0 +1,97 @@
+Umix (User-Mode Unix) CSE120 Instructional OS v. 3.53 [2/7/17-12:50AM]] 29911
+
+start
+Block: s: 2; v: 0
+1
+2
+s
+Block: s: 1; v: 0
+Block: s: 4; v: 0
+west:1
+Block: s: 3; v: 0
+sss
+Block: s: 2; v: 0
+Block: s: 6; v: 0
+W1---------E Car 1 enters at 1 at 40 mph
+start
+Block: s: 2; v: 0
+1
+2
+s
+Block: s: 1; v: -1
+p: 2; s = 1; v = -1
+Block: s: 7; v: 0
+in
+Block: s: 2; v: 0
+Signal: p: 2; s: 1; v = 0
+W-1--------E Car 1 moves from 1 to 2
+Block: s: 4; v: 0
+west:0
+sss
+Block: s: 2; v: 0
+Block: s: 6; v: 0
+W21--------E Car 2 enters at 1 at 60 mph
+Block: s: 7; v: -1
+p: 2; s = 7; v = -1
+Block: s: 8; v: 0
+Signal: p: 2; s: 7; v = 0
+W2-1-------E Car 1 moves from 2 to 3
+in
+Block: s: 2; v: 0
+loop
+W-21-------E Car 2 moves from 1 to 2
+Block: s: 8; v: -1
+p: 2; s = 8; v = -1
+Block: s: 9; v: 0
+Signal: p: 2; s: 8; v = 0
+W-2-1------E Car 1 moves from 3 to 4
+W--21------E Car 2 moves from 2 to 3
+Block: s: 9; v: -1
+p: 2; s = 9; v = -1
+Block: s: 10; v: 0
+Signal: p: 2; s: 9; v = 0
+W--2-1-----E Car 1 moves from 4 to 5
+W---21-----E Car 2 moves from 3 to 4
+Block: s: 10; v: -1
+p: 2; s = 10; v = -1
+Block: s: 11; v: 0
+Signal: p: 2; s: 10; v = 0
+W---2-1----E Car 1 moves from 5 to 6
+W----21----E Car 2 moves from 4 to 5
+Block: s: 11; v: -1
+p: 2; s = 11; v = -1
+Block: s: 12; v: 0
+Signal: p: 2; s: 11; v = 0
+W----2-1---E Car 1 moves from 6 to 7
+W-----21---E Car 2 moves from 5 to 6
+Block: s: 12; v: -1
+p: 2; s = 12; v = -1
+Block: s: 13; v: 0
+Signal: p: 2; s: 12; v = 0
+W-----2-1--E Car 1 moves from 7 to 8
+W------21--E Car 2 moves from 6 to 7
+Block: s: 13; v: -1
+p: 2; s = 13; v = -1
+Block: s: 14; v: 0
+Signal: p: 2; s: 13; v = 0
+W------2-1-E Car 1 moves from 8 to 9
+W-------21-E Car 2 moves from 7 to 8
+Block: s: 14; v: -1
+p: 2; s = 14; v = -1
+Block: s: 15; v: 0
+Signal: p: 2; s: 14; v = 0
+W-------2-1E Car 1 moves from 9 to 10
+W--------21E Car 2 moves from 8 to 9
+Block: s: 15; v: -1
+p: 2; s = 15; v = -1
+Signal: p: 2; s: 15; v = 0
+W--------2-E Car 1 exits road
+end
+Block: s: 2; v: 0
+W---------2E Car 2 moves from 9 to 10
+W----------E Car 2 exits road
+end
+Block: s: 2; v: 0
+Road Trace: >>||
+
+System exiting (normal)
