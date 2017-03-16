@@ -1,0 +1,84 @@
+Umix (User-Mode Unix) CSE120 Instructional OS v. 3.54 [2/21/17-10:07PM] 17203
+
+        *just created 1
+T1: 0 squared = 0
+T1: 1 squared = 1
+T1: 2 squared = 4
+T1: 3 squared = 9
+T1: 4 squared = 16
+        *just created 2
+        *just created 3
+        *just created 4
+        *just created 5
+        *just created 6
+        *just created 7
+        *just created 8
+        *just created 9
+T9: 0 squared = 0
+T0: square = 0, cube = 0
+T9: 1 squared = 1
+T0: square = 1, cube = 0
+T9: 2 squared = 4
+T0: square = 4, cube = 0
+T9: 3 squared = 9
+T0: square = 9, cube = 0
+T9: 4 squared = 16
+T0: square = 16, cube = 0
+        *just created 1
+T2: 0 cubed = 0
+T3: 0 squared = 0
+T4: 0 cubed = 0
+T5: 0 squared = 0
+T6: 0 cubed = 0
+T7: 0 squared = 0
+T8: 0 cubed = 0
+T1: 0 cubed = 0
+YieldThread: Thread 9 does not exist
+T1: 1 cubed = 1
+YieldThread: Thread 9 does not exist
+T1: 2 cubed = 8
+YieldThread: Thread 9 does not exist
+T1: 3 cubed = 27
+YieldThread: Thread 9 does not exist
+T1: 4 cubed = 64
+YieldThread: Thread 9 does not exist
+T2: 1 cubed = 1
+T3: 1 squared = 1
+T4: 1 cubed = 1
+T5: 1 squared = 1
+T6: 1 cubed = 1
+T7: 1 squared = 1
+T8: 1 cubed = 1
+YieldThread: Thread 9 does not exist
+T8: 2 cubed = 8
+YieldThread: Thread 9 does not exist
+T8: 3 cubed = 27
+YieldThread: Thread 9 does not exist
+T8: 4 cubed = 64
+YieldThread: Thread 9 does not exist
+T2: 2 cubed = 8
+T3: 2 squared = 4
+T4: 2 cubed = 8
+T5: 2 squared = 4
+T6: 2 cubed = 8
+T7: 2 squared = 4
+YieldThread: Thread 8 does not exist
+T7: 3 squared = 9
+YieldThread: Thread 8 does not exist
+T7: 4 squared = 16
+YieldThread: Thread 8 does not exist
+T2: 3 cubed = 27
+T3: 3 squared = 9
+T4: 3 cubed = 27
+T5: 3 squared = 9
+T6: 3 cubed = 27
+YieldThread: Thread 7 does not exist
+T6: 4 cubed = 64
+YieldThread: Thread 7 does not exist
+T2: 4 cubed = 64
+T3: 4 squared = 16
+T4: 4 cubed = 64
+T5: 4 squared = 16
+YieldThread: Thread 6 does not exist
+
+System exiting (normal)

@@ -1,0 +1,86 @@
+Umix (User-Mode Unix) CSE120 Instructional OS v. 3.54 [2/21/17-10:07PM] 27842
+
+T0: square = 0, cube = 0
+In printCubes3...Created thread 0
+In printCubes3...Exiting 1
+In printCubes3...Created thread 1
+In printCubes3...Exiting 2
+In printCubes3...Created thread 2
+In printCubes3...Exiting 3
+In printCubes3...Created thread 3
+In printCubes3...Exiting 4
+In printCubes3...Created thread 4
+In printCubes3...Exiting 5
+In printCubes3...Created thread 5
+In printCubes3...Exiting 6
+In printCubes3...Created thread 6
+In printCubes3...Exiting 7
+In printCubes3...Created thread 7
+In printCubes3...Exiting 8
+In printCubes3...Created thread 8
+In printCubes3...Exiting 9
+In printCubes2...Created thread 9
+In printCubes2...Exiting 0
+In printCubes2...Created thread 0
+In printCubes2...Exiting 1
+In printCubes2...Created thread 1
+In printCubes2...Exiting 2
+In printCubes2...Created thread 2
+In printCubes2...Exiting 3
+In printCubes2...Created thread 3
+In printCubes2...Exiting 4
+In printCubes2...Created thread 4
+In printCubes2...Exiting 5
+In printCubes2...Created thread 5
+In printCubes2...Exiting 6
+In printCubes2...Created thread 6
+In printCubes2...Exiting 7
+In printCubes2...Created thread 7
+In printCubes2...Exiting 8
+In printCubes1...Created thread 8
+In printCubes1...Exiting 9
+In printCubes1...Created thread 9
+In printCubes1...Exiting 0
+In printCubes1...Created thread 0
+In printCubes1...Exiting 1
+In printCubes1...Created thread 1
+In printCubes1...Exiting 2
+In printCubes1...Created thread 2
+In printCubes1...Exiting 3
+In printCubes1...Created thread 3
+In printCubes1...Exiting 4
+In printCubes1...Created thread 4
+In printCubes1...Exiting 5
+In printCubes1...Created thread 5
+In printCubes1...Exiting 6
+In printCubes1...Created thread 6
+In printCubes1...Exiting 7
+In printCubes...Created thread 7
+In printCubes...Exiting 8
+In printCubes...Created thread 8
+In printCubes...Exiting 9
+In printCubes...Created thread 9
+In printCubes...Exiting 0
+In printCubes...Created thread 0
+In printCubes...Exiting 1
+In printCubes...Created thread 1
+In printCubes...Exiting 2
+In printCubes...Created thread 2
+In printCubes...Exiting 3
+In printCubes...Created thread 3
+In printCubes...Exiting 4
+In printCubes...Created thread 4
+In printCubes...Exiting 5
+In printCubes...Created thread 5
+In printCubes...Exiting 6
+Exiting 7
+Exiting 8
+Exiting 9
+Exiting 0
+Exiting 1
+Exiting 2
+Exiting 3
+Exiting 4
+Exiting 5
+
+System exiting (normal)
