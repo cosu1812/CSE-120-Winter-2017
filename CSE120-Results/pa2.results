@@ -1,0 +1,339 @@
+******  PA2 Test Results: clsu, Mon Feb 13 06:07:55 PST 2017  ******
+
+Total tests passed = 10 out of 12     Total points = 5 out of 6
+
+
+******  Individual Test Results  ******
+
+Compiling mykernel2.c
+pa2grader.c:
+mykernel2.c:
+
+*****  TEST FIFO0 Student Output  *****
+
+> Tests FIFO with 5 processes
+
+Report (ticks: 10, scheduling: 1):
+PID: 1, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 20, scheduling: 1):
+PID: 2, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 15, scheduling: 1):
+PID: 3, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 30, scheduling: 1):
+PID: 4, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 20, scheduling: 1):
+PID: 5, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+All processes within margin of error and no other errors:  ********** YES
+
+Test PASSED
+
+
+*****  TEST FIFO1 Student Output  *****
+
+> Tests FIFO with MAXPROCS processes
+
+Report (ticks: 10, scheduling: 1):
+PID: 1, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 1, scheduling: 1):
+PID: 2, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 2, scheduling: 1):
+PID: 3, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 1, scheduling: 1):
+PID: 4, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 20, scheduling: 1):
+PID: 5, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 1, scheduling: 1):
+PID: 6, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 1, scheduling: 1):
+PID: 10, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+All processes within margin of error and no other errors:  ********** YES
+
+Test PASSED
+
+
+*****  TEST LIFO0 Student Output  *****
+
+> Tests LIFO with 5 processes
+
+Report (ticks: 10, scheduling: 1):
+PID: 3, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 10, scheduling: 1):
+PID: 2, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 20, scheduling: 1):
+PID: 4, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 10, scheduling: 1):
+PID: 2, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 15, scheduling: 1):
+PID: 1, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+All processes within margin of error and no other errors:  ********** YES
+
+Test PASSED
+
+
+*****  TEST LIFO1 Student Output  *****
+
+> Tests LIFO with MAXPROCS processes
+
+Report (ticks: 1, scheduling: 1):
+PID: 5, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 2, scheduling: 1):
+PID: 6, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 3, scheduling: 1):
+PID: 4, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 20, scheduling: 1):
+PID: 3, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 1, scheduling: 1):
+PID: 10, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 1, scheduling: 1):
+PID: 9, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+Report (ticks: 1, scheduling: 1):
+PID: 3, Expected: 100.00%, Got: 100.00% (1/1)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1)
+
+All processes within margin of error and no other errors:  ********** YES
+
+Test PASSED
+
+
+*****  TEST RRBN0 Student Output  *****
+
+> Tests ROUNDROBIN with 4 processes, all arrive at time 0
+
+Report (ticks: 1000, scheduling: 1000):
+PID: 1, Expected: 25.00%, Got: 25.00% (250/1000)
+PID: 2, Expected: 25.00%, Got: 25.00% (250/1000)
+PID: 3, Expected: 25.00%, Got: 25.00% (250/1000)
+PID: 4, Expected: 25.00%, Got: 25.00% (250/1000)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1000)
+
+All processes within margin of error and no other errors:  ********** YES
+
+Test PASSED
+
+
+*****  TEST RRBN1 Student Output  *****
+
+> Tests ROUNDROBIN with MAXPROCS processes
+>    - 5 processes start, run for 100 ticks
+>    - the first 4 end, and the remaining one runs for 100 ticks
+>    - then 5 more processes start, and all 6 run for 500 ticks
+>    - then 2 processes end, and all 4 run for 100 ticks
+
+Report (ticks: 100, scheduling: 100):
+PID: 1, Expected: 20.00%, Got: 20.00% (20/100)
+PID: 2, Expected: 20.00%, Got: 20.00% (20/100)
+PID: 3, Expected: 20.00%, Got: 20.00% (20/100)
+PID: 4, Expected: 20.00%, Got: 20.00% (20/100)
+PID: 5, Expected: 20.00%, Got: 20.00% (20/100)
+Other PIDs, Expected: 0%, Got: 0.00% (0/100)
+
+Report (ticks: 100, scheduling: 100):
+PID: 5, Expected: 100.00%, Got: 100.00% (100/100)
+Other PIDs, Expected: 0%, Got: 0.00% (0/100)
+
+Report (ticks: 500, scheduling: 500):
+PID: 5, Expected: 16.66%, Got: 16.60% (83/500)
+PID: 6, Expected: 16.66%, Got: 16.80% (84/500)
+PID: 7, Expected: 16.66%, Got: 16.60% (83/500)
+PID: 8, Expected: 16.66%, Got: 16.60% (83/500)
+PID: 9, Expected: 16.66%, Got: 16.60% (83/500)
+PID: 10, Expected: 16.66%, Got: 16.80% (84/500)
+Other PIDs, Expected: 0%, Got: 0.00% (0/500)
+
+Report (ticks: 100, scheduling: 100):
+PID: 5, Expected: 25.00%, Got: 25.00% (25/100)
+PID: 6, Expected: 25.00%, Got: 25.00% (25/100)
+PID: 8, Expected: 25.00%, Got: 25.00% (25/100)
+PID: 10, Expected: 25.00%, Got: 25.00% (25/100)
+Other PIDs, Expected: 0%, Got: 0.00% (0/100)
+
+All processes within margin of error and no other errors:  ********** YES
+
+Test PASSED
+
+
+*****  TEST PROP0 Student Output  *****
+
+> Tests PROPORTIONAL with 2 processes, each requesting 50%
+
+Report (ticks: 1000, scheduling: 1000):
+PID: 1, Expected: 50.00%, Got: 50.00% (500/1000)
+PID: 2, Expected: 50.00%, Got: 50.00% (500/1000)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1000)
+
+All processes within margin of error and no other errors:  ********** YES
+
+Test PASSED
+
+
+*****  TEST PROP1 Student Output  *****
+
+> Tests PROPORTIONAL with 5 processes, checking various situations:
+> 		- when a new process is created
+> 		- when a new process requests some CPU rate
+> 		- when a requested process exits
+> 		- when an unrequested process exits
+> 	Specifically:
+> 		- p1 and p2 are created; p1 requests 10%, p2 requests 20%
+> 		- p3 is created: makes no specific request
+> 		- p4 and p5 are created: each make no specific request
+> 		- p5 exits
+> 		- p3 requests 40%
+> 		- p1 exits
+
+Report (ticks: 500, scheduling: 500):
+PID: 1, Expected: 10.00%, Got: 33.40% (167/500)
+PID: 2, Expected: 20.00%, Got: 66.60% (333/500)
+Other PIDs, Expected: 0%, Got: 0.00% (0/500)
+
+Report (ticks: 500, scheduling: 500):
+PID: 1, Expected: 10.00%, Got: 9.00% (45/500)
+PID: 2, Expected: 20.00%, Got: 18.20% (91/500)
+PID: 3, Expected: 70.00%, Got: 72.80% (364/500)
+Other PIDs, Expected: 0%, Got: 0.00% (0/500)
+
+Report (ticks: 500, scheduling: 500):
+PID: 1, Expected: 10.00%, Got: 10.00% (50/500)
+PID: 2, Expected: 20.00%, Got: 19.80% (99/500)
+PID: 3, Expected: 23.33%, Got: 22.80% (114/500)
+PID: 4, Expected: 23.33%, Got: 23.80% (119/500)
+PID: 5, Expected: 23.33%, Got: 23.60% (118/500)
+Other PIDs, Expected: 0%, Got: 0.00% (0/500)
+
+Report (ticks: 500, scheduling: 500):
+PID: 1, Expected: 10.00%, Got: 10.00% (50/500)
+PID: 2, Expected: 20.00%, Got: 20.00% (100/500)
+PID: 3, Expected: 35.00%, Got: 35.00% (175/500)
+PID: 4, Expected: 35.00%, Got: 35.00% (175/500)
+Other PIDs, Expected: 0%, Got: 0.00% (0/500)
+
+Report (ticks: 500, scheduling: 500):
+PID: 1, Expected: 10.00%, Got: 10.00% (50/500)
+PID: 2, Expected: 20.00%, Got: 20.00% (100/500)
+PID: 3, Expected: 40.00%, Got: 40.00% (200/500)
+PID: 4, Expected: 30.00%, Got: 30.00% (150/500)
+Other PIDs, Expected: 0%, Got: 0.00% (0/500)
+
+Report (ticks: 500, scheduling: 500):
+PID: 2, Expected: 20.00%, Got: 20.00% (100/500)
+PID: 3, Expected: 40.00%, Got: 40.00% (200/500)
+PID: 4, Expected: 40.00%, Got: 40.00% (200/500)
+Other PIDs, Expected: 0%, Got: 0.00% (0/500)
+
+All processes within margin of error and no other errors:  ********** YES
+
+Test PASSED
+
+
+*****  TEST PROP2 Student Output  *****
+
+./autograde.sh: line 94: 24379: Floating exception(coredump)
+
+Test FAILED
+
+
+*****  TEST PROP3 Student Output  *****
+
+> Tests PROPORTIONAL with MAXPROCS processes
+> 	- CPU rate should be equally allocated to all unrequesting processes
+
+Report (ticks: 1000, scheduling: 1000):
+PID: 1, Expected: 10.00%, Got: 10.00% (100/1000)
+PID: 2, Expected: 10.00%, Got: 10.00% (100/1000)
+PID: 3, Expected: 10.00%, Got: 10.00% (100/1000)
+PID: 4, Expected: 10.00%, Got: 10.00% (100/1000)
+PID: 5, Expected: 10.00%, Got: 10.00% (100/1000)
+PID: 6, Expected: 10.00%, Got: 10.00% (100/1000)
+PID: 7, Expected: 10.00%, Got: 10.00% (100/1000)
+PID: 8, Expected: 10.00%, Got: 10.00% (100/1000)
+PID: 9, Expected: 10.00%, Got: 10.00% (100/1000)
+PID: 10, Expected: 10.00%, Got: 10.00% (100/1000)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1000)
+
+Report (ticks: 1000, scheduling: 1000):
+PID: 1, Expected: 30.00%, Got: 31.90% (319/1000)
+PID: 2, Expected: 3.75%, Got: 3.20% (32/1000)
+PID: 3, Expected: 3.75%, Got: 3.20% (32/1000)
+PID: 4, Expected: 3.75%, Got: 3.20% (32/1000)
+PID: 5, Expected: 40.00%, Got: 42.50% (425/1000)
+PID: 6, Expected: 3.75%, Got: 3.20% (32/1000)
+PID: 7, Expected: 3.75%, Got: 3.20% (32/1000)
+PID: 8, Expected: 3.75%, Got: 3.20% (32/1000)
+PID: 9, Expected: 3.75%, Got: 3.20% (32/1000)
+PID: 10, Expected: 3.75%, Got: 3.20% (32/1000)
+Other PIDs, Expected: 0%, Got: 0.00% (0/1000)
+
+All processes within margin of error and no other errors:  ********** YES
+
+Test PASSED
+
+
+*****  TEST PROP4 Student Output  *****
+
+> Tests PROPORTIONAL over long period of time
+> 	- period of time = 10000000
+> 	- 3 processes: p1 requests 10%, p2 requests 20%, p3 requests 70%
+
+Report (ticks: 10000000, scheduling: 10000000):
+PID: 1, Expected: 10.00%, Got: 10.00% (999720/10000000)
+PID: 2, Expected: 20.00%, Got: 19.99% (1999440/10000000)
+PID: 3, Expected: 70.00%, Got: 70.01% (7000840/10000000)
+Other PIDs, Expected: 0%, Got: 0.00% (0/10000000)
+
+All processes within margin of error and no other errors:  ********** YES
+
+Test PASSED
+
+
+*****  TEST PROP5 Student Output  *****
+
+./autograde.sh: line 94: 24404: Floating exception(coredump)
+
+Test FAILED
+
